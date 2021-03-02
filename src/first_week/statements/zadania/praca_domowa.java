@@ -28,54 +28,54 @@ public class praca_domowa {
         int liczba2 = skaner.nextInt();
         System.out.print("Podaj liczbe3: ");
         int liczba3 = skaner.nextInt();
-      if(liczba1==liczba2&&liczba2==liczba3){
-          System.out.println("liczby są równe");
-          System.out.println("libcza1 równa się:"+ liczba1);
-          System.out.println("libcza2 równa się:"+ liczba2);
-          System.out.println("libcza3 równa się:"+ liczba3);
-      }
-      else{
-          if (liczba1>liczba2){
-              if (liczba1>liczba3){
-                  System.out.println("liczba1 jest największa");
-                  System.out.println("libcza1 równa się:"+ liczba1);
-              }
-              else
-                  if (liczba1==liczba3){
-                      System.out.println("liczba1 i lczba3 są największe ");
-                      System.out.println("libcza1 równa się:"+ liczba1);
-                      System.out.println("libcza3 równa się:"+ liczba3);
-                  }
-          }
-          else{
-              if (liczba1==liczba2){
-                  System.out.println("liczba1 i liczba2 są największe");
-                  System.out.println("libcza1 równa się:"+ liczba1);
-                  System.out.println("libcza2 równa się:"+ liczba2);
+        if(liczba1==liczba2&&liczba2==liczba3){
+            System.out.println("liczby są równe");
+            System.out.println("libcza1 równa się:"+ liczba1);
+            System.out.println("libcza2 równa się:"+ liczba2);
+            System.out.println("libcza3 równa się:"+ liczba3);
+        }
+        else{
+            if (liczba1>liczba2){
+                if (liczba1>liczba3){
+                    System.out.println("liczba1 jest największa");
+                    System.out.println("libcza1 równa się:"+ liczba1);
+                }
+                else
+                if (liczba1==liczba3){
+                    System.out.println("liczba1 i lczba3 są największe ");
+                    System.out.println("libcza1 równa się:"+ liczba1);
+                    System.out.println("libcza3 równa się:"+ liczba3);
+                }
+            }
+            else{
+                if (liczba1==liczba2){
+                    System.out.println("liczba1 i liczba2 są największe");
+                    System.out.println("libcza1 równa się:"+ liczba1);
+                    System.out.println("libcza2 równa się:"+ liczba2);
 
-              }
-              else{
-                  if (liczba2>liczba3){
-                      System.out.println("liczba2 jest największa");
-                      System.out.println("libcza2 równa się:"+ liczba2);
-                  }
-                  else{
-                      if (liczba2==liczba3){
-                          System.out.println("liczba2 i liczba3 są największe");
-                          System.out.println("libcza2 równa się:"+ liczba2);
-                          System.out.println("libcza3 równa się:"+ liczba3);
-                      }
-                      else{
-                          System.out.println("liczba3 jest najwieksza");
-                          System.out.println("libcza3 równa się:"+ liczba3);
-                      }
-                  }
-              }
-          }
+                }
+                else{
+                    if (liczba2>liczba3){
+                        System.out.println("liczba2 jest największa");
+                        System.out.println("libcza2 równa się:"+ liczba2);
+                    }
+                    else{
+                        if (liczba2==liczba3){
+                            System.out.println("liczba2 i liczba3 są największe");
+                            System.out.println("libcza2 równa się:"+ liczba2);
+                            System.out.println("libcza3 równa się:"+ liczba3);
+                        }
+                        else{
+                            System.out.println("liczba3 jest najwieksza");
+                            System.out.println("libcza3 równa się:"+ liczba3);
+                        }
+                    }
+                }
+            }
 
-      }
+        }
         System.out.println("\n"+"zadanie3");
-      //zadanie3
+        //zadanie3
         System.out.print("Podaj login: ");
         String login = skaner.next();
         System.out.print("Podaj hasło: ");
@@ -131,26 +131,24 @@ public class praca_domowa {
         String y = skaner.next();
 
 
-        switch (y){
-            case "+":
-                double suma =a+b;
+        switch (y) {
+            case "+" -> {
+                double suma = a + b;
                 System.out.println(suma);
-                break;
-            case "-":
-                double wynik = a-b;
+            }
+            case "-" -> {
+                double wynik = a - b;
                 System.out.println(wynik);
-                break;
-            case "*":
-                double iloczyn = a*b;
+            }
+            case "*" -> {
+                double iloczyn = a * b;
                 System.out.println(iloczyn);
-                break;
-            case "/":
-                double iloraz = a/b;
+            }
+            case "/" -> {
+                double iloraz = a / b;
                 System.out.println(iloraz);
-                break;
-            default:
-                System.out.println("Nie wybrano poprawnej opcji.");
-                break;
+            }
+            default -> System.out.println("Nie wybrano poprawnej opcji.");
         }
 
 
@@ -162,3 +160,4 @@ public class praca_domowa {
 
     }
 }
+
