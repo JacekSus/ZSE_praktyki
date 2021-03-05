@@ -34,7 +34,33 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.zadania_tablice">
+  <component name="RunManager" selected="Application.zadania_multiArrays">
+    <configuration name="MetodyLekcja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second_week.methodsAndObjects.MetodyLekcja" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second_week.methodsAndObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PralkoSuszarka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second_week.methodsAndObjects.PralkoSuszarka" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second_week.methodsAndObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lekcja_arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="second_week.arrays.lekcja_arrays" />
       <module name="ZSE_praktyki" />
@@ -48,38 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lekcja_multiArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second_week.multiArrays.lekcja_multiArrays" />
+    <configuration name="zadania_multiArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second_week.multiArrays.zadania_multiArrays" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="second_week.multiArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="praca_domowa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="first_week.statements.zadania.praca_domowa" />
-      <module name="ZSE_praktyki" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="first_week.statements.zadania.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zadania_pętli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second_week.loops.zadania_pętli" />
-      <module name="ZSE_praktyki" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="second_week.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.zadania_multiArrays" />
         <item itemvalue="Application.zadania_tablice" />
+        <item itemvalue="Application.PralkoSuszarka" />
+        <item itemvalue="Application.MetodyLekcja" />
         <item itemvalue="Application.lekcja_arrays" />
-        <item itemvalue="Application.zadania_pętli" />
-        <item itemvalue="Application.lekcja_multiArrays" />
-        <item itemvalue="Application.praca_domowa" />
       </list>
     </recent_temporary>
   </component>
