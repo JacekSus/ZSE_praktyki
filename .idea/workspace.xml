@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.zadanie_piec">
+  <component name="RunManager" selected="Application.privateExample">
     <configuration name="MetodyLekcja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="second_week.methodsAndObjects.MetodyLekcja" />
       <module name="ZSE_praktyki" />
@@ -61,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zadania_multiArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second_week.multiArrays.zadania_multiArrays" />
+    <configuration name="dziedziczenieExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_week.packages.dziedziczenieExample" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="second_week.multiArrays.*" />
+          <option name="PATTERN" value="third_week.packages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zadania_tablice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second_week.arrays.zadania_tablice" />
+    <configuration name="privateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_week.packages.privateExample" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="second_week.arrays.*" />
+          <option name="PATTERN" value="third_week.packages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.privateExample" />
+        <item itemvalue="Application.dziedziczenieExample" />
         <item itemvalue="Application.zadanie_piec" />
         <item itemvalue="Application.PralkoSuszarka" />
         <item itemvalue="Application.MetodyLekcja" />
-        <item itemvalue="Application.zadania_multiArrays" />
-        <item itemvalue="Application.zadania_tablice" />
       </list>
     </recent_temporary>
   </component>
