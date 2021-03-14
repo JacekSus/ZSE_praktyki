@@ -34,13 +34,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.privateExample">
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_week.KolkoIKrzyzyk.TicTacToe" />
+  <component name="RunManager" selected="Application.wyjątki_własne">
+    <configuration name="Kalkulator_zmodyfikowany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_week.gui.Kalkulator_zmodyfikowany" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="third_week.KolkoIKrzyzyk.*" />
+          <option name="PATTERN" value="third_week.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,26 +48,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="privateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_week.zadanie4.privateExample" />
-      <module name="ZSE_praktyki" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="spotkanie7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spotkanie7" />
-      <module name="ZSE_praktyki" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_week.zadanie2B.test" />
+    <configuration name="dziedziczenie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_week.zadanie5.dziedziczenie" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="third_week.zadanie2B.*" />
+          <option name="PATTERN" value="third_week.zadanie5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +61,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wynik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_week.zadanie2B.wynik" />
+    <configuration name="przeciążenie_metody (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_week.zadanie7.przeciążenie_metody" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="third_week.zadanie2B.*" />
+          <option name="PATTERN" value="third_week.zadanie7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="przeciążenie_metody" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_week.zadanie6.przeciążenie_metody" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="third_week.zadanie6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wyjątki_własne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_week.exceptions.wyjątki_własne" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="third_week.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.privateExample" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.wynik" />
-        <item itemvalue="Application.spotkanie7" />
-        <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.wyjątki_własne" />
+        <item itemvalue="Application.Kalkulator_zmodyfikowany" />
+        <item itemvalue="Application.przeciążenie_metody (1)" />
+        <item itemvalue="Application.przeciążenie_metody" />
+        <item itemvalue="Application.dziedziczenie" />
       </list>
     </recent_temporary>
   </component>
