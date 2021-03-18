@@ -712,7 +712,7 @@ public class clicker extends JFrame implements MouseListener{
                     if(k>=c1){
                         k=k-c1;
                         u1++;
-                        c1=c1*2;
+                        c1=c1+10;
                         poz1++;
                         tekst.setText("ulepszono");
                         if(kol==0){
@@ -739,7 +739,7 @@ public class clicker extends JFrame implements MouseListener{
                     if(k>=c2){
                         k=k-c2;
                         u2=u2+10;
-                        c2=c2*2;
+                        c2=c2+c2;
                         poz2++;
                         tekst.setText("ulepszono");
                         if(kol==1){
@@ -765,7 +765,7 @@ public class clicker extends JFrame implements MouseListener{
                 public void mouseClicked(MouseEvent evt) {
                     if(k>=c3){
                         k=k-c3;
-                        c3=c3*2;
+                        c3=c3+c3;
                         los++;
                         poz3++;
 
@@ -797,7 +797,7 @@ public class clicker extends JFrame implements MouseListener{
                 public void mouseClicked(MouseEvent evt){
                     if (k>=c4){
                         k=k-c4;
-                        c4=c4*2;
+                        c4=c4+c4;
                         los2--;
                         poz4++;
                         if(kol==3){
@@ -885,7 +885,7 @@ public class clicker extends JFrame implements MouseListener{
                     if(k>=c7){
                         k=k-c7;
                         u4=u4+1;
-                        c7=c7*2;
+                        c7=c7*1000;
                         poz7++;
                         if(kol==6){
                             do {
@@ -909,7 +909,7 @@ public class clicker extends JFrame implements MouseListener{
                     if(k>=c8){
                         k=k-c8;
                         u4=u4+10;
-                        c8=c8*2;
+                        c8=c8+c8;
                         poz8++;
                         if(kol==7){
                             do {
@@ -957,7 +957,6 @@ public class clicker extends JFrame implements MouseListener{
 
                     if(k>=c10){
                         k=k-c10;
-                        c10=c10*2;
                         poz10++;
                         tekst.setText("ulepszono");
                         JOptionPane.showMessageDialog(null, "BRAWO przekroczyłeś maksymalną liczbę int"+"\n"+"dzięki za zniszczenie mi gry"+"\n"+"WYGRAŁEŚ");
