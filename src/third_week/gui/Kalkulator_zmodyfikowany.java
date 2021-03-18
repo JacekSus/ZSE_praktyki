@@ -20,7 +20,7 @@ public class Kalkulator_zmodyfikowany extends JFrame{
     private JButton przyciskpodziel;
     private JButton przyciskpotęga;
 
-    Kalkulator_zmodyfikowany(){
+    public Kalkulator_zmodyfikowany(){
         setTitle("Kalkulator prosty");
         setSize(500, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

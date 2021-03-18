@@ -33,10 +33,52 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.wyjątki_własne">
-    <configuration name="Kalkulator_zmodyfikowany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_week.gui.Kalkulator_zmodyfikowany" />
+  <component name="RunManager" selected="Application.clicker">
+    <configuration name="clicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projekt.clicker" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projekt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clicker_the_game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kosz.clicker_the_game" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wzór.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="statki" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projekt.statki" />
+      <module name="ZSE_praktyki" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projekt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="swing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_week.gui.swing" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
@@ -48,51 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dziedziczenie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_week.zadanie5.dziedziczenie" />
+    <configuration name="wzór" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wzór.wzór" />
       <module name="ZSE_praktyki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="third_week.zadanie5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="przeciążenie_metody (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_week.zadanie7.przeciążenie_metody" />
-      <module name="ZSE_praktyki" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="third_week.zadanie7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="przeciążenie_metody" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_week.zadanie6.przeciążenie_metody" />
-      <module name="ZSE_praktyki" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="third_week.zadanie6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="wyjątki_własne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_week.exceptions.wyjątki_własne" />
-      <module name="ZSE_praktyki" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="third_week.exceptions.*" />
+          <option name="PATTERN" value="wzór.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.wyjątki_własne" />
-        <item itemvalue="Application.Kalkulator_zmodyfikowany" />
-        <item itemvalue="Application.przeciążenie_metody (1)" />
-        <item itemvalue="Application.przeciążenie_metody" />
-        <item itemvalue="Application.dziedziczenie" />
+        <item itemvalue="Application.clicker" />
+        <item itemvalue="Application.wzór" />
+        <item itemvalue="Application.clicker_the_game" />
+        <item itemvalue="Application.statki" />
+        <item itemvalue="Application.swing" />
       </list>
     </recent_temporary>
   </component>
